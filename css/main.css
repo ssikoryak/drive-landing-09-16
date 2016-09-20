@@ -438,6 +438,7 @@ th {
 .top-header:after,
 .product-list:after,
 .product:after,
+.multi-price:after,
 .promo-holder .two-cols:after,
 .promo-holder .contact-list:after,
 .promo-holder .promo-valid .info-list:after {
@@ -826,7 +827,7 @@ a {
   display: table-cell;
   vertical-align: top;
   color: #C7354B;
-  width: 140px;
+  width: 160px;
 }
 
 .product .price .amount {
@@ -855,6 +856,19 @@ a {
   line-height: 10px;
   letter-spacing: 0;
 }
+
+.product .price .f-print {
+  text-align: right;
+}
+
+.product .price.multi-price {
+  float: right;
+}
+
+.product .price.multi-price:first-child {
+  padding-bottom: 10px;
+}
+
 
 .product .price .other-amount {
   text-align: right;
@@ -955,9 +969,11 @@ a {
   vertical-align: top;
 }
 
+
 .table {
   font: 13px/18px "Arial", "Helvetica", sans-serif;
   width: 100%;
+  margin-bottom: 10px;
 }
 
 .table .col1 {
@@ -1233,6 +1249,10 @@ a {
   width: 40px;
 }
 
+.multi-price-table table {
+  margin: 30px auto;
+}
+
 .table thead tr {
   border-bottom: 1px solid #00235e;
 }
@@ -1275,6 +1295,10 @@ a {
   background: #EDEDEC;
   display: table;
   border-bottom: 1px solid black;
+}
+
+.special-row:first-child {
+  border-top: 1px solid black;
 }
 
 .special-title {
