@@ -840,6 +840,11 @@ a {
   text-align: right;
 }
 
+.product .price .amount.free {
+  font: bold 32px/36px "Arial", "Helvetica", sans-serif;
+  padding-right: 0;
+}
+
 .product .price .per-each {
   font: bold 18px/14px "Arial", "Helvetica", sans-serif;
   position: absolute;
@@ -860,6 +865,7 @@ a {
 
 .product .price .f-print {
   text-align: right;
+  font: bold 12px/14px "Arial", "Helvetica", sans-serif;
 }
 
 .product .price.multi-price {
@@ -1078,7 +1084,7 @@ a {
 }
 
 .table.table2 .col2 {
-  width: 290px;
+  width: 300px;
 }
 
 .table.table2 .col3 {
@@ -1086,7 +1092,7 @@ a {
 }
 
 .table.table2 .col4 {
-  width: 60px;
+  width: 50px;
 }
 
 .table.table3 .col1 {
@@ -1242,7 +1248,7 @@ a {
 }
 
 .table.table10 .col4 {
-  width: 20px;
+  width: 40px;
 }
 
 .table.table10 .col5 {
@@ -1312,6 +1318,7 @@ a {
   width: 400px;
   text-align: right;
   display: table-cell;
+  padding-right: 5px;
 }
 
 .table .tbl-content {
