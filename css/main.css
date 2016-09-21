@@ -1256,6 +1256,10 @@ a {
   width: 40px;
 }
 
+.color-square {
+    margin-bottom: 2px;
+}
+
 .multi-price-table table {
   margin: 30px auto;
 }
