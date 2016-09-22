@@ -887,10 +887,10 @@ a {
 .product .price .top-other-price {
   font-weight: bold;
   display: block;
-  font-size: 8px;
+  font-size: 9px;
   line-height: 10px;
   text-align: right;
-  margin-bottom: -8px;
+  margin-bottom: -6px;
   text-transform: uppercase;
 }
 
@@ -950,7 +950,7 @@ a {
   vertical-align: top;
   width: 200px;
   text-align: center;
-  padding: 5px 20px 5px 0;
+  padding: 5px 10px 5px 0;
 }
 
 .product .product-details .image-canvas a {
